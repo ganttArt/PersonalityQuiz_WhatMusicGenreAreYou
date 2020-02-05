@@ -175,17 +175,32 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oz8-bi-wDS">
+                                <rect key="frame" x="0.0" y="76" width="414" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qTu-AY-3Lu">
+                                <rect key="frame" x="40" y="786" width="334" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="JyA-sA-2FM" firstAttribute="trailing" secondItem="RGb-Wd-H3z" secondAttribute="trailing" constant="20" id="3Xu-qk-CaU"/>
                             <constraint firstItem="hRA-Cx-Cd4" firstAttribute="centerY" secondItem="GXQ-3H-1au" secondAttribute="centerY" id="4yP-c3-sMp"/>
+                            <constraint firstItem="Oz8-bi-wDS" firstAttribute="leading" secondItem="JyA-sA-2FM" secondAttribute="leading" id="6DI-wV-JGA"/>
                             <constraint firstItem="hRA-Cx-Cd4" firstAttribute="leading" secondItem="JyA-sA-2FM" secondAttribute="leading" constant="20" id="AMC-p2-tO9"/>
+                            <constraint firstItem="qTu-AY-3Lu" firstAttribute="leading" secondItem="GXQ-3H-1au" secondAttribute="leadingMargin" constant="20" id="EhX-i6-6QG"/>
+                            <constraint firstItem="JyA-sA-2FM" firstAttribute="bottom" secondItem="qTu-AY-3Lu" secondAttribute="bottom" constant="20" id="Txa-KR-IFE"/>
                             <constraint firstItem="JyA-sA-2FM" firstAttribute="trailing" secondItem="DZq-fN-JnC" secondAttribute="trailing" constant="20" id="XRM-2P-m1S"/>
                             <constraint firstItem="RGb-Wd-H3z" firstAttribute="leading" secondItem="JyA-sA-2FM" secondAttribute="leading" constant="20" id="auI-vT-e16"/>
                             <constraint firstItem="DZq-fN-JnC" firstAttribute="leading" secondItem="JyA-sA-2FM" secondAttribute="leading" constant="20" id="hiX-at-NLG"/>
+                            <constraint firstItem="JyA-sA-2FM" firstAttribute="trailing" secondItem="Oz8-bi-wDS" secondAttribute="trailing" id="j4N-zJ-MP0"/>
                             <constraint firstItem="DZq-fN-JnC" firstAttribute="centerY" secondItem="GXQ-3H-1au" secondAttribute="centerY" id="lcl-Ro-fGm"/>
+                            <constraint firstItem="Oz8-bi-wDS" firstAttribute="top" secondItem="JyA-sA-2FM" secondAttribute="top" constant="20" id="mc5-9U-whj"/>
                             <constraint firstItem="RGb-Wd-H3z" firstAttribute="centerY" secondItem="GXQ-3H-1au" secondAttribute="centerY" id="wbA-bV-01w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qTu-AY-3Lu" secondAttribute="trailing" constant="20" id="wxG-N5-RcT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JyA-sA-2FM"/>
                     </view>
