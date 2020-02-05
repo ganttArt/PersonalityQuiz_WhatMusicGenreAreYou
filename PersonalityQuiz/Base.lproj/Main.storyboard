@@ -31,7 +31,7 @@
                                         <rect key="frame" x="0.0" y="194" width="512" height="30"/>
                                         <state key="normal" title="Begin Personality Quiz"/>
                                         <connections>
-                                            <segue destination="aQs-Hu-Bex" kind="show" id="2zN-2Q-Ygk"/>
+                                            <segue destination="jWL-iB-mgM" kind="presentation" id="26K-Mt-Qcg"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unnamed" translatesAutoresizingMaskIntoConstraints="NO" id="d1I-Zj-Won">
@@ -63,25 +63,48 @@
                         <viewLayoutGuide key="safeArea" id="JyA-sA-2FM"/>
                     </view>
                     <navigationItem key="navigationItem" id="hdu-Cu-8pb"/>
+                    <connections>
+                        <segue destination="TSh-JB-egB" kind="show" identifier="ResultsSegue" id="iR1-ql-NGU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZdN-Hb-gMi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="807" y="127"/>
+            <point key="canvasLocation" x="1715.9420289855075" y="126.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Oqv-ld-nTY">
             <objects>
                 <viewController id="TSh-JB-egB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SJk-Xr-Tfj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="YU5-ng-oWh"/>
                     </view>
+                    <navigationItem key="navigationItem" id="k1v-gj-Nyl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Jy-FT-e4H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1497" y="127"/>
+            <point key="canvasLocation" x="2405.7971014492755" y="126.5625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ARW-4L-08k">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jWL-iB-mgM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="tqU-B1-UVb"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZLK-6R-1dQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aQs-Hu-Bex" kind="relationship" relationship="rootViewController" id="gKg-DM-isG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gkk-dX-nrY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="805.79710144927537" y="126.5625"/>
         </scene>
     </scenes>
     <resources>
