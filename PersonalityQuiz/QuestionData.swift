@@ -23,8 +23,8 @@ struct Answer {
     var type: AnimalType
 }
 
-enum AnimalType: Character {
-    case dog = "🐶", cat = "🐱", rabbit = "🐰", turtle = "🐢"
+enum AnimalType: String {
+    case dog = "Metal", cat = "Jazz", rabbit = "Experimental", turtle = "Singer/Songwriter"
     
     var definition: String {
             switch self {
