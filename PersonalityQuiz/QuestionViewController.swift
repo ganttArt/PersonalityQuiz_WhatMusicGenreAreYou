@@ -55,7 +55,7 @@ class QuestionViewController: UIViewController {
                     Answer(text: "Beer in hand", type: .experimental),
                     Answer(text: "Head-Banging", type: .metal)]),
         
-        Question(text: "Where do you play?",
+        Question(text: "Where would you rather hang out?",
                  type: .single,
                  answers: [
                     Answer(text: "Bar", type: .metal),
