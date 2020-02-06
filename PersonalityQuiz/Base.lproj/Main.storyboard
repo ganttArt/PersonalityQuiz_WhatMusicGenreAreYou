@@ -206,9 +206,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="JyA-sA-2FM" firstAttribute="trailing" secondItem="RGb-Wd-H3z" secondAttribute="trailing" constant="20" id="3Xu-qk-CaU"/>
-                            <constraint firstItem="hRA-Cx-Cd4" firstAttribute="centerY" secondItem="GXQ-3H-1au" secondAttribute="centerY" id="4yP-c3-sMp"/>
                             <constraint firstItem="Oz8-bi-wDS" firstAttribute="leading" secondItem="JyA-sA-2FM" secondAttribute="leading" id="6DI-wV-JGA"/>
-                            <constraint firstItem="hRA-Cx-Cd4" firstAttribute="leading" secondItem="JyA-sA-2FM" secondAttribute="leading" constant="20" id="AMC-p2-tO9"/>
                             <constraint firstItem="qTu-AY-3Lu" firstAttribute="leading" secondItem="GXQ-3H-1au" secondAttribute="leadingMargin" constant="20" id="EhX-i6-6QG"/>
                             <constraint firstItem="JyA-sA-2FM" firstAttribute="bottom" secondItem="qTu-AY-3Lu" secondAttribute="bottom" constant="20" id="Txa-KR-IFE"/>
                             <constraint firstItem="JyA-sA-2FM" firstAttribute="trailing" secondItem="DZq-fN-JnC" secondAttribute="trailing" constant="20" id="XRM-2P-m1S"/>
@@ -217,6 +215,8 @@
                             <constraint firstItem="JyA-sA-2FM" firstAttribute="trailing" secondItem="Oz8-bi-wDS" secondAttribute="trailing" id="j4N-zJ-MP0"/>
                             <constraint firstItem="DZq-fN-JnC" firstAttribute="centerY" secondItem="GXQ-3H-1au" secondAttribute="centerY" id="lcl-Ro-fGm"/>
                             <constraint firstItem="Oz8-bi-wDS" firstAttribute="top" secondItem="JyA-sA-2FM" secondAttribute="top" constant="20" id="mc5-9U-whj"/>
+                            <constraint firstItem="hRA-Cx-Cd4" firstAttribute="centerY" secondItem="GXQ-3H-1au" secondAttribute="centerY" id="mjo-Hb-x6E"/>
+                            <constraint firstItem="hRA-Cx-Cd4" firstAttribute="leading" secondItem="JyA-sA-2FM" secondAttribute="leading" constant="20" id="vOn-nR-DHw"/>
                             <constraint firstItem="RGb-Wd-H3z" firstAttribute="centerY" secondItem="GXQ-3H-1au" secondAttribute="centerY" id="wbA-bV-01w"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qTu-AY-3Lu" secondAttribute="trailing" constant="20" id="wxG-N5-RcT"/>
                         </constraints>

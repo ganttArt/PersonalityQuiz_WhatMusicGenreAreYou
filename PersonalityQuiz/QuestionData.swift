@@ -20,22 +20,22 @@ enum ResponseType {
 
 struct Answer {
     var text: String
-    var type: AnimalType
+    var type: MusicType
 }
 
-enum AnimalType: String {
-    case dog = "Metal", cat = "Jazz", rabbit = "Experimental", turtle = "Singer/Songwriter"
+enum MusicType: String {
+    case metal = "Metal", jazz = "Jazz", experimental = "Experimental", songwriter = "Singer/Songwriter"
     
     var definition: String {
             switch self {
-            case .dog:
-                return "You are incredibly outgoing. You surround yourself with the people you love and enjoy activities with your friends."
-            case .cat:
-                return "Mischievous, yet mild-tempered, you enjoy doing things on your own terms."
-            case .rabbit:
-                return "You love everything that's soft. You are healthy and full of energy."
-            case .turtle:
-                return "You are wise beyond your years, and you focus on the details. Slow and steady wins the race."
+            case .metal:
+                return "You live loud! Life can be brutal, but for a metalhead that's not exactly a bad thing."
+            case .jazz:
+                return "You strive to express your inner feelings with freeform melodies but this is thanks in part to that groove that helps keep you afloat."
+            case .experimental:
+                return "You break the norm. Exploration of what hasn't been done is essential for progress."
+            case .songwriter:
+                return "Expressing your feelings through meticulously crafted words and melodies connects you to those around you."
         }
     }
 }

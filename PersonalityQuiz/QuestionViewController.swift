@@ -39,32 +39,37 @@ class QuestionViewController: UIViewController {
     var answersChosen: [Answer] = []
     
     var questions: [Question] = [
-        Question(text: "How much do you enjoy car rides?",
-        type: .ranged,
-        answers: [
-               Answer(text: "I dislike them", type: .cat),
-               Answer(text: "I get a little nervous",
-                     type: .rabbit),
-               Answer(text: "I barely notice them",
-                     type: .turtle),
-               Answer(text: "I love them", type: .dog)
-                    ]),
-        Question(text: "Which food do you like the most?",
-                 type:.single,
+        Question(text: "What is your volume knob set to?",
+                 type: .ranged,
                  answers: [
-                    Answer(text: "Steak", type: .dog),
-                    Answer(text: "Fish", type: .cat),
-                    Answer(text: "Carrots", type: .rabbit),
-                    Answer(text: "Corn", type: .turtle)
-                          ]),
-        Question(text: "Which activities do you enjoy?",
+                    Answer(text: "0", type: .jazz),
+                    Answer(text: "Not Too loud", type: .songwriter),
+                    Answer(text: "Some volume", type: .experimental),
+                    Answer(text: "11", type: .metal)]),
+        
+        Question(text: "How do you listen to music",
                  type: .multiple,
                  answers: [
-                        Answer(text: "Swimming", type: .turtle),
-                        Answer(text: "Sleeping", type: .cat),
-                        Answer(text: "Cuddling", type: .rabbit),
-                        Answer(text: "Eating", type: .dog)
-                              ]),
+                    Answer(text: "With my lover", type: .songwriter),
+                    Answer(text: "With a cocktail", type: .jazz),
+                    Answer(text: "Beer in hand", type: .experimental),
+                    Answer(text: "Head-Banging", type: .metal)]),
+        
+        Question(text: "Where do you play?",
+                 type: .single,
+                 answers: [
+                    Answer(text: "Bar", type: .metal),
+                    Answer(text: "Coffee Shop", type: .songwriter),
+                    Answer(text: "Basement", type: .experimental),
+                    Answer(text: "Swanky Party", type: .jazz)]),
+        
+        Question(text: "How about some Improv?",
+                 type: .ranged,
+                 answers: [
+                    Answer(text: "No Way!", type: .metal),
+                    Answer(text: "Just a little maybe", type: .songwriter),
+                    Answer(text: "At least one improv solo", type: .jazz),
+                    Answer(text: "More Please!", type: .experimental)]),
         ]
     
     override func viewDidLoad() {
